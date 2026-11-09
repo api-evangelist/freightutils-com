@@ -1,4 +1,4 @@
-# freightutils-com
+# FreightUtils
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-freightutils-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://freightutils.com/
+FreightUtils provides a neutral freight reference layer for AI agents, offering source‑backed data on dangerous goods, HS codes, locations and freight calculations. Every answer includes its authority, edition, and verification status, delivered via REST, MCP and GPT interfaces. The service aims to simplify logistics data integration for developers and enterprises.
+
+**Areas:** Company · Logistics · Freight · Data · API
+
+## FreightUtils on APIs.io
+
+Everything profiled for FreightUtils is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/freightutils-com/](https://apis.io/providers/freightutils-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [FreightUtils ADR API](https://apis.io/apis/freightutils-com/freightutils-com-adr-api/) — The ADR API from FreightUtils — 6 operation(s) for adr.
+- [FreightUtils Calculators API](https://apis.io/apis/freightutils-com/freightutils-com-calculators-api/) — The Calculators API from FreightUtils — 10 operation(s) for calculators.
+- [FreightUtils Composite API](https://apis.io/apis/freightutils-com/freightutils-com-composite-api/) — The Composite API from FreightUtils — 1 operation(s) for composite.
+- [FreightUtils Consignment API](https://apis.io/apis/freightutils-com/freightutils-com-consignment-api/) — The Consignment API from FreightUtils — 1 operation(s) for consignment.
+- [FreightUtils Customs API](https://apis.io/apis/freightutils-com/freightutils-com-customs-api/) — The Customs API from FreightUtils — 1 operation(s) for customs.
+- [FreightUtils Reference API](https://apis.io/apis/freightutils-com/freightutils-com-reference-api/) — The Reference API from FreightUtils — 1 operation(s) for reference.
+- [FreightUtils Reference Data API](https://apis.io/apis/freightutils-com/freightutils-com-reference-data-api/) — The Reference Data API from FreightUtils — 17 operation(s) for reference data.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [FreightUtils Agentic Access](https://apis.io/agentic-access/freightutils-com/freightutils-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AdrCalculatorRequest](https://apis.io/schemas/freightutils-com/freightutils-com-adr-calculator-request/)
+- [AdrCalculatorResponse](https://apis.io/schemas/freightutils-com/freightutils-com-adr-calculator-response/)
+- [AdrConsignmentCheckResult](https://apis.io/schemas/freightutils-com/freightutils-com-adr-consignment-check-result/)
+- [ContainerSpec](https://apis.io/schemas/freightutils-com/freightutils-com-container-spec/)
+- [EmissionsResponse](https://apis.io/schemas/freightutils-com/freightutils-com-emissions-response/)
+- [ResolveResponse](https://apis.io/schemas/freightutils-com/freightutils-com-resolve-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Freightutils Com Context](https://apis.io/jsonld/freightutils-com/freightutils-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FreightUtils API Rules](https://apis.io/rules/freightutils-com/freightutils-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [FreightUtils Authentication](https://apis.io/security/freightutils-com/freightutils-com-authentication/)
+- [FreightUtils Domain Security](https://apis.io/security/freightutils-com/freightutils-com-domain-security/)
+- [FreightUtils Vulnerability Disclosure](https://apis.io/security/freightutils-com/freightutils-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [FreightUtils Plans Pricing](https://apis.io/plans/freightutils-com/freightutils-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.freightutils.com/)
+- [Getting started](https://www.freightutils.com/playground)
+- [API reference](https://www.freightutils.com/api-docs)
+- [Pricing](https://www.freightutils.com/pricing)
+- [Support](https://www.freightutils.com/contact)
+- [Changelog](https://www.freightutils.com/changelog)
+- [Blog](https://www.freightutils.com/guides)
+- [Security](https://www.freightutils.com/for-it)
+- [Terms of service](https://www.freightutils.com/terms)
+- [Privacy policy](https://www.freightutils.com/privacy)
+- [Status](https://www.freightutils.com/status)
+
+## API Evangelist rating
+
+**Kin Score 62.7** — strong · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 65.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 60.0 |
+
+**Agent readiness 43.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/freightutils-com/](https://apis.io/providers/freightutils-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FreightUtils: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/freightutils-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
